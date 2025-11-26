@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shubham Makkar | Data Analyst Portfolio</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        background: #ffffff;
+        color: #1a1a1a;
+    }
+
+    /* NAVIGATION BAR */
+    nav {
+        width: 100%;
+        background: #0A1A44; /* Navy */
+        padding: 18px 0;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    nav ul li a:hover {
+        opacity: 0.8;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 150px auto;
+        padding: 0 40px;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 1.1;
+        font-weight: 700;
+        color: #0A1A44;
+    }
+
+    h2 {
+        font-size: 32px;
+        color: #0A1A44;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 22px;
+        font-weight: 500;
+        color: #1A237E;
+        margin-top: 10px;
+    }
+
+    p.subtitle {
+        font-size: 18px;
+        color: #455A64;
+        margin-top: 10px;
+    }
+
+    .buttons {
+        margin-top: 40px;
+    }
+
+    a.btn {
+        text-decoration: none;
+        padding: 14px 28px;
+        border-radius: 8px;
+        font-size: 16px;
+        margin-right: 10px;
+        font-weight: 600;
+        display: inline-block;
+        transition: 0.2s;
+    }
+
+    .btn-primary {
+        background-color: #1A73E8;
+        color: #ffffff;
+    }
+
+    .btn-outline {
+        border: 2px solid #1A73E8;
+        color: #1A73E8;
+    }
+
+    .btn-primary:hover, .btn-outline:hover {
+        opacity: 0.9;
+    }
+
+    /* SECTIONS */
+    .section-block {
+        margin-top: 50px;
+        line-height: 1.7;
+        font-size: 17px;
+        color: #37474F;
+    }
+
+    .project-card {
+        background: #F4F7FB;
+        padding: 20px 25px;
+        border-left: 5px solid #1A73E8;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+
+    .skill-box {
+        background: #F4F7FB;
+        padding: 12px 20px;
+        border-radius: 6px;
+        display: inline-block;
+        margin: 8px;
+        font-size: 15px;
+        color: #0A1A44;
+        border-left: 4px solid #1A73E8;
+    }
+
+    .footer {
+        margin-top: 120px;
+        text-align: center;
+        color: #78909C;
+        font-size: 14px;
+        padding-bottom: 40px;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO SECTION -->
+<div class="container" id="home">
+    <h1>Shubham<br>Makkar</h1>
+    <h3>Data Analyst (Fresher)</h3>
+    <p class="subtitle">Pursuing Diploma in Data Science & Analytics</p>
+
+    <div class="buttons">
+        <a href="https://www.linkedin.com/in/shubhammakkar" class="btn btn-primary" target="_blank">LinkedIn</a>
+        <a href="My Resume.pdf" class="btn btn-outline" target="_blank">Resume</a>
+    </div>
+</div>
+
+<!-- PROJECTS SECTION -->
+<div class="container" id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>Amazon Sales & Customer Insights Analysis</h3>
+        <p>
+        • End-to-end analysis using Python, SQL, Power BI on 6 related tables  
+        • Built 30+ KPIs covering customers, orders, products, refunds & ratings  
+        • Created multiple dashboards with insights for each dataset  
+        • Identified city-wise performance, refund trends & improvement areas  
+        </p>
+        <a href="https://tinyurl.com/58wecavw" target="_blank" class="btn btn-outline">View Project</a>
+    </div>
+
+    <div class="project-card">
+        <h3>Motorola Mobile Sales Dashboard (Power BI)</h3>
+        <p>
+        • Built a Power BI dashboard analyzing sales trends & product performance  
+        • Used DAX for KPIs like Revenue, Profit %, Growth Rate  
+        • Highlighted insights for regional performance and decision-making  
+        </p>
+        <a href="https://github.com/ShubhamMakkar/Power-BI-Sample-Project" target="_blank" class="btn btn-outline">View Project</a>
+    </div>
+</div>
+
+<!-- SKILLS SECTION -->
+<div class="container" id="skills">
+    <h2>Skills</h2>
+
+    <!-- Skills extracted from your resume -->
+    <div class="skill-box">SQL (Joins, CTE, Window Functions)</div>
+    <div class="skill-box">Python (Pandas, NumPy, Matplotlib)</div>
+    <div class="skill-box">Power BI (DAX, Data Modeling)</div>
+    <div class="skill-box">Tableau</div>
+    <div class="skill-box">Excel (PivotTables, VLOOKUP, Dashboarding)</div>
+    <div class="skill-box">Machine Learning (Linear & Logistic Regression)</div>
+    <div class="skill-box">Decision Trees</div>
+    <div class="skill-box">Random Forest</div>
+    <div class="skill-box">Model Evaluation Metrics</div>
+    <div class="skill-box">Statistics & Analytics</div>
+    <div class="skill-box">Hypothesis Testing</div>
+    <div class="skill-box">Correlation & Regression</div>
+    <div class="skill-box">Probability</div>
+    <div class="skill-box">Descriptive Statistics</div>
+    <div class="skill-box">PowerPoint</div>
+    <div class="skill-box">Canva</div>
+</div>
+
+<!-- CONTACT SECTION -->
+<div class="container" id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="section-block">
+        <p><strong>Email:</strong> shubhammakkar71@gmail.com</p>
+        <p><strong>Phone:</strong> +91 79829 18708</p>
+        <p><strong>Location:</strong> Faridabad, India</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shubhammakkar" target="_blank">linkedin.com/in/shubhammakkar</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/ShubhamMakkar" target="_blank">github.com/ShubhamMakkar</a></p>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    © 2025 Shubham Makkar — Data Analyst Portfolio
+</div>
+
+</body>
+</html>
